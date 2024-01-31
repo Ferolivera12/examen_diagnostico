@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;   
+}
+
+.recuadro-perfil {
+    background-color: #fff;
+    box-shadow: 10px 10px 10px rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url('https://i.pinimg.com/564x/2b/ab/de/2babde8cce2bfa8fcd8e5c6794000c67.jpg'); /* Ruta absoluta de mi imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
+    background-position: center; /* Centra la imagen */
+}
+
+.img-perfil {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.texto {
+    color: #ffffff;
+}
+
+.nombre {
+    color:rgb(255, 0, 0);
+}
